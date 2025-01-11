@@ -1,0 +1,49 @@
+
+
+
+
+What is SQL?
+
+SQL (Structured Query Language) is a standard language to interact with relational databases. It’s for managing and manipulating structured data which is stored in tables. 
+SQL allows you to create, modify, query and delete data from databases, so it’s an essential skill for anyone working with data.
+
+
+Why is SQL Important?
+
+SQL is the way we interact with data in the modern world. From simple data retrieval to complex transactions with millions of records, SQL is the backbone of almost every system that stores structured data. 
+Whether you’re working on a small personal project or a large enterprise system, SQL is the language you’ll use to get and manipulate data.
+
+
+SQL Basics
+
+SQL has several types of commands:
+
+
+Data Query Language (DQL): Get data from the database. The most common DQL command is SELECT, to fetch records.
+
+Data Definition Language (DDL): Define and modify database structures like tables, views and schemas. Commands like CREATE, ALTER and DROP fall under DDL.
+
+Data Manipulation Language (DML): For managing data in tables. This includes commands like INSERT, UPDATE and DELETE.
+
+Data Control Language (DCL): Manage permissions and access to the database. GRANT and REVOKE are part of DCL.
+
+
+Relational Databases
+
+
+SQL works within the realm of relational databases which store data in tables with rows and columns. Each table represents a different type of data (e.g. “Employees”, “Orders”, “Products”).
+The relationships between these tables allow us to perform complex data operations, like joining data from multiple tables.
+
+For example, an “Employees” table might have columns like Employee_ID, Name and Department_ID, while a separate “Departments” table would have Department_ID and Department_Name. 
+SQL allows us to query across these tables to get meaningful insights, like which employees belong to which department.
+
+Why SQL?
+
+
+Speed: SQL is a fast way to interact with big data. You can write complex queries to get exactly what you need.
+
+Standard Language: SQL is used across different database systems (MySQL, PostgreSQL, SQL Server etc.), so it’s a skill for developers, data analysts and database administrators.
+
+Powerful Queries: SQL allows you to filter, sort, group and aggregate data in many ways to get insights from large data sets.
+
+Data Integrity: You can set rules to ensure the data in your database is correct and consistent.
