@@ -2,7 +2,6 @@
 
 In SQL, one of the first steps to working with data is creating a database and defining tables to store that data. Let’s go step by step through the process of creating a database, setting up a table, and inserting data into it.
 
----
 
 Step 1: Creating a Database
 
@@ -41,7 +40,6 @@ Explanation of the syntax:
 - Salary DECIMAL(10, 2):
   - The `DECIMAL` data type stores numbers with decimal points. The `10, 2` means it can store numbers up to 10 digits in total, with 2 digits after the decimal point.
 
----
 
 Step 3: Inserting Data
 
@@ -56,7 +54,6 @@ VALUES ('John', 'Doe', '1990-05-15', 55000.00);||
 - You don’t need to specify `EmployeeID` because it’s `AUTO_INCREMENT`, and the database will generate it automatically.
 
 You can add more records like this:
-
 
 ||INSERT INTO Employees (FirstName, LastName, DateOfBirth, Salary)
 VALUES ('Jane', 'Smith', '1985-09-30', 65000.00);||
@@ -78,7 +75,3 @@ Data Types Explained
 4. DECIMAL:
    - Stores precise numeric values, especially when decimal points are important (e.g., for currency).
    - Syntax: `DECIMAL(m, d)` where `m` is the total number of digits and `d` is the number of digits after the decimal point.
-
-
----
-
