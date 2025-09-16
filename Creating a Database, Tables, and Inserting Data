@@ -1,4 +1,4 @@
- *Creating a Database, Tables, and Inserting Data*
+ Creating a Database, Tables, and Inserting Data
 
 In SQL, one of the first steps to working with data is creating a database and defining tables to store that data. Let’s go step by step through the process of creating a database, setting up a table, and inserting data into it.
 
@@ -8,23 +8,18 @@ Step 1: Creating a Database
 
 To start, you need to create a database to store your tables and data. Here’s how you do it:
 
-```sql
+
 CREATE DATABASE CompanyDB;
-```
 
 This command creates a database named `CompanyDB`. After creating the database, you can switch to it using the `USE` command:
 
-```sql
-USE CompanyDB;
-```
 
----
+USE CompanyDB;
 
 Step 2: Creating a Table
 
 Once the database is ready, you can create a table to store specific data. For example, let’s create a table called `Employees`:
 
-```sql
 CREATE TABLE Employees (
     EmployeeID INT AUTO_INCREMENT PRIMARY KEY,
     FirstName VARCHAR(50),
@@ -32,7 +27,7 @@ CREATE TABLE Employees (
     DateOfBirth DATE,
     Salary DECIMAL(10, 2)
 );
-```
+
 
 Explanation of the syntax:
 - EmployeeID INT AUTO_INCREMENT PRIMARY KEY: 
@@ -52,22 +47,19 @@ Step 3: Inserting Data
 
 After creating the table, you can add data to it using the `INSERT INTO` command. For example:
 
-```sql
+
 ||INSERT INTO Employees (FirstName, LastName, DateOfBirth, Salary)
 VALUES ('John', 'Doe', '1990-05-15', 55000.00);||
-```
+
 
 - Here, we’re inserting a new employee named John Doe, born on May 15, 1990, with a salary of 55,000.00.
 - You don’t need to specify `EmployeeID` because it’s `AUTO_INCREMENT`, and the database will generate it automatically.
 
 You can add more records like this:
 
-```sql
+
 ||INSERT INTO Employees (FirstName, LastName, DateOfBirth, Salary)
 VALUES ('Jane', 'Smith', '1985-09-30', 65000.00);||
-```
-
----
 
 Data Types Explained
 
@@ -87,15 +79,6 @@ Data Types Explained
    - Stores precise numeric values, especially when decimal points are important (e.g., for currency).
    - Syntax: `DECIMAL(m, d)` where `m` is the total number of digits and `d` is the number of digits after the decimal point.
 
----
-
- Summary
-
-1. Create a database with `CREATE DATABASE`.
-2. Define tables with `CREATE TABLE`, specifying columns, data types, and constraints like `PRIMARY KEY` and `AUTO_INCREMENT`.
-3. Insert data with `INSERT INTO`, providing values for each column.
-
-With these foundational steps, you can set up structured databases and start working with data efficiently!
 
 ---
 
